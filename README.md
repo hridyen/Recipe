@@ -1,46 +1,91 @@
-Recipe App
-Overview
-The Recipe App is a comprehensive Flutter application that allows users to explore and manage recipes. Utilizing the Edamam API, the app provides recipe data, enabling users to search, save, and interact with recipes efficiently. The app features multiple screens with local data storage using Hive to manage recipes and ingredients.
+RECIPE APP
 
-Features
-Onboarding Screen: A user-friendly introduction to the app's features.
-Search Screen: Allows users to search for recipes based on their needs and cravings.
-Category Screen: Users can browse recipes by selecting from various categories.
-Details Screen: Provides detailed information about the selected recipe, including:
-Save, Share, Nutritional Content, Unit Conversion, and Direction buttons.
-A list of ingredients that can be added or removed.
-A direction button to view the recipe's webpage.
-Shopping Screen: Displays ingredients added from the Details Screen. Users can delete ingredients from this screen.
-Hive Local Storage: Recipes and ingredients are stored locally using Hive for offline access and management.
-Installation
+Overview:
+
+The Recipe App is a Flutter application that allows users to explore and manage recipes using the Edamam API.
+With a focus on providing an intuitive user experience, the app features multiple screens and utilizes Hive for local data storage,
+enabling users to search, save, and interact with recipes seamlessly.
+
+Features:
+
+Onboarding Screen: A guided introduction to the app's functionalities.
+
+Search Screen: Find recipes based on specific needs and cravings.
+
+Category Screen: Browse recipes by various categories.
+
+Details Screen: View detailed information about a selected recipe, including:
+
+Save: Save recipes for later access.
+
+Share: Share recipes with others.
+
+Nutritional Content: Check detailed nutritional information.
+
+Unit Conversion: Convert recipe measurements.
+
+Direction Button: Opens the recipe's webpage.
+
+Ingredient List: Add or remove ingredients from the recipe.
+
+Shopping Screen: Manage ingredients added from the details screen and delete them if needed.
+
+Hive Local Storage: Recipes and ingredients are stored locally using Hive for offline access.
+
+Installation:
+
 Clone the Repository:
 
 bash
+
 Copy code
-git clone https://github.com/yourusername/recipe-app.git
+
+git clone https://github.com/hridyen/recipe-app.git
+
 cd recipe-app
+
 Install Dependencies:
 
-Make sure you have Flutter installed. Run the following command to get the required packages:
+Ensure you have Flutter installed. Run the following command to get the required packages:
 
 bash
+
 Copy code
+
 flutter pub get
+
 Setup Edamam API:
 
-Obtain an API key from Edamam and add it to your app's configuration. Follow the API documentation for details on integration.
+Obtain an API key from Edamam and configure it in your app.
+
+Refer to the Edamam API documentation for integration details.
 
 Run the App:
 
-Use the following command to run the app on your emulator or physical device:
+Launch the app on your emulator or physical device using:
 
 bash
+
 Copy code
+
 flutter run
-Usage
-Search for Recipes: Use the search screen to find recipes based on keywords.
-Explore Categories: Navigate to the category screen to view recipes sorted by category.
+
+Usage:
+
+Search for Recipes: Use the search screen to enter keywords and find recipes.
+
+Explore Categories: Navigate to the category screen to view recipes by category.
+
 View Recipe Details: Click on a recipe to see detailed information, including nutritional content and ingredient list.
-Manage Ingredients: Add ingredients from the details screen to the shopping screen and manage them there.
-Contributing
-Contributions are welcome! If you'd like to contribute to the project, please fork the repository and submit a pull request.
+
+Manage Ingredients: Add ingredients from the details screen to the shopping screen and manage them as needed.
+
+Contributing:
+
+Contributions are welcome! To contribute
+
+Fork the repository.
+Create a feature branch (git checkout -b feature-branch).
+Commit your changes (git commit -am 'Add new feature').
+Push to the branch (git push origin feature-branch).
+Create a new Pull Request.
